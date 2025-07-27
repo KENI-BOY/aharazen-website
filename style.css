@@ -1,0 +1,259 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+/* Navbar */
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #2d3748;
+  color: white;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+/* Sections */
+.section {
+  min-height: 100vh;
+  padding: 80px 20px 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* Home */
+/* Home Section Styling */
+.home-section {
+  display: flex;
+  justify-content: center;  /* horizontal centering */
+  align-items: center;      /* vertical centering */
+  height: 100vh;            /* full viewport height */
+  background: linear-gradient(to right, #38b2ac, #2d3748);
+  color: white;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.home-content {
+  max-width: 700px;
+}
+
+.home-section h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.home-section p {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.cta-button {
+  padding: 12px 24px;
+  background-color: #ffffff;
+  color: #2d3748;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background 0.3s, color 0.3s;
+}
+
+.cta-button:hover {
+  background-color: #e2e8f0;
+  color: #1a202c;
+}
+
+.about-section {
+  background-color: #184a6b;
+}
+
+.about-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  padding: 40px 60px;
+  flex-wrap: wrap;
+}
+
+.about-text {
+  flex: 1;
+  min-width: 300px;
+  text-align: left;
+}
+
+.about-logo {
+  flex: 1;
+  min-width: 300px;
+  text-align: left;
+}
+
+.about-logo img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.services-section {
+  background-color: #215f19;
+}
+
+.services-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  padding: 40px 60px;
+  flex-wrap: wrap;
+}
+
+.services-text {
+  flex: 1;
+  min-width: 300px;
+  text-align: left;
+}
+
+.services-text ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.services-image {
+  flex: 1;
+  min-width: 300px;
+  text-align: center;
+}
+
+.services-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* Contact Section */
+.contact-section {
+  background: linear-gradient(to right, #185f7b, #38b2ac);
+  padding: 80px 20px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.contact-section h2 {
+  font-size: 36px;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+.contact-section p {
+  font-size: 18px;
+  color: #f0f0f0;
+  margin-bottom: 30px;
+}
+
+.contact-details {
+  margin-bottom: 25px;
+  font-size: 18px;
+}
+
+.contact-details a {
+  color: #e6f7ff;
+  text-decoration: none;
+}
+
+.contact-details a:hover {
+  text-decoration: underline;
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 12px 15px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  width: 100%;
+}
+
+.contact-form textarea {
+  resize: vertical;
+}
+
+.contact-form button {
+  background-color: #ffffff;
+  color: #185f7b;
+  font-size: 16px;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #e2e8f0;
+  color: #1a202c;
+}
+
+
+/* Light background sections */
+.light-section {
+  background-color: #f9fafb;
+  color: #2d3748;
+}
+
+/* Services */
+.services-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.services-list li {
+  font-size: 1.1rem;
+  margin: 10px 0;
+}
