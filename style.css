@@ -6,12 +6,6 @@
   font-family: "Segoe UI", sans-serif;
   scroll-behavior: smooth;
 }
-
-
-
-body {
-  overflow-x: hidden;
-}
 .search-bar {
   display: flex;
   align-items: center;
@@ -33,6 +27,12 @@ body {
   outline: none;
   flex: 1;
   font-size: 16px;
+}
+
+
+
+body {
+  overflow-x: hidden;
 }
 
 /* Navbar */
