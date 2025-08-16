@@ -129,6 +129,9 @@ body {
   max-width: 100%;
   height: auto;
   border-radius: 10px;
+  flex: 1;
+  min-width: 300px;
+  text-align: center;
 }
 
 .services-section {
@@ -257,3 +260,4 @@ body {
   font-size: 1.1rem;
   margin: 10px 0;
 }
+
